@@ -25,11 +25,11 @@ public class chicken2Move : MonoBehaviour
         {
 
             Vector3 position = transform.position;
-            int r = Random.Range(0, 3);
-            if (r == 0) { x = -2.7f; }
-            else if (r == 1) { x = -0.9f; }
-            else if (r == 2) { x = .9f; }
-            else { x = 2.7f; }
+            int r = Random.Range(0, 2);
+            if (r == 0) { x = -0.26f; }
+            else if (r == 1) { x = 0.216f; }
+            else  { x = -0.002f; } 
+        
 
             transform.position = new Vector3(x, position.y, position.z);
             moved = true;

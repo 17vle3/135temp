@@ -19,7 +19,7 @@ public class chickenMove : MonoBehaviour
     void Update()
     {
         //bool finished = GameObject.Find("FPSController").GetComponent<room_switch>().finished;
-        bool start = GameObject.Find("FPSController").GetComponent<room_switch>().start;
+        bool start = GameObject.Find("FPSController").GetComponent<room_switch>().onlvl1;
 
         if (start && once)
         {
